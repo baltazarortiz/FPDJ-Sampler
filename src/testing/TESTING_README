@@ -1,0 +1,4 @@
+To use these testbenches, you will need to generate .dat files using sampler/dirtodat.py. It is recommended that you use (very) short samples (a few periods of a sine/sawtooth wave, for example),
+ as simulating loading and playback can take a long time
+ 
+Note: sampler_tb uses sampler_debug.v, which allows the testbench to feed in fake RAM and SD data. If changes are made to the real sampler.v, sampler_debug.v also needs to be changed.
